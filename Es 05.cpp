@@ -1,0 +1,1 @@
+// è la 1 con funzione a parte
