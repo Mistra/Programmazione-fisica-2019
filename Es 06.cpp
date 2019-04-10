@@ -4,7 +4,6 @@
 using namespace std;
 
 void risoluzione1(float a, float b) {
-    // da far fare
     if (a == 0) {
         if (b == 0) {
             cout << "eq sempre vera" << endl;

@@ -10,17 +10,18 @@ int main() {
     cin >> a;
     cout << "dammi il valore di b" << endl;
     cin >> b;
-    cout << "dammi il valore di b" << endl;
+    cout << "dammi il valore di c" << endl;
     cin >> c;
 
     int m = a;
 
     if (m > b) {
         m = b;
-    } else if (m > c) {
+    }
+    if (m > c) {
         m = c;
     }
 
-    cout << "il minimo è:" << m << endl;
+    cout << "il minimo è: " << m << endl;
     return 0;
 }
