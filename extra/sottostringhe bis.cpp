@@ -27,6 +27,13 @@ void postfissi(char stringa[], int n) {
 // nel ciclo interno procedo da 0 a dim
 // copiando dall'n meno dim + il j-esimo elemento
 
+// Esempio, prendiamo il suffisso lungo 2 di:
+// "Ciao" con "n = 4" e "dim = 2"
+// postfisso = _ _
+// stringa   = c i a o
+// in postfisso[0] metto la "a" (n - dim + 0)
+// in postfisso[1] metto la "o" (n - dim + 1)
+
 void postfissi(char stringa[], int n) {
     for (int i = 0; i < n; i++) {
         int dim = i + 1;
