@@ -9,16 +9,16 @@ void stampa(int a[], const int n) {
     cout << endl;
 }
 
-void shift_avanti(int a[], unsigned dim) {
+void shift_avanti(int a[], const int dim) {
     // sol. pulita ma poco efficiente
-    for (unsigned i = 0; i < dim; i++) {
+    for (int i = 0; i < dim; i++) {
         int temp = a[i];
         a[i] = a[0];
         a[0] = temp;
     }
 }
 
-void inverti(int a[], unsigned const int dim) {
+void inverti(int a[], const int dim) {
     for (int i = 0; i < dim / 2; i++) {
         int opp = dim - 1 - i;
 
@@ -28,7 +28,7 @@ void inverti(int a[], unsigned const int dim) {
     }
 }
 
-void shift_indietro(int a[], unsigned dim) {
+void shift_indietro(int a[], const int dim) {
     inverti(a, dim);
     shift_avanti(a, dim);
     inverti(a, dim);
