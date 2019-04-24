@@ -1,0 +1,2 @@
+cane,1234,ciso,cido
+gatto,243,cido,ciso
